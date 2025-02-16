@@ -1,3 +1,11 @@
+<script setup>
+import Navbar from "@/components/Navbar.vue";
+import Hero from "@/components/Hero.vue";
+import HomeCards from "@/components/HomeCards.vue";
+
+</script>
 <template>
-  <h6 class="text-red-800">Vue Jobs</h6>
+  <Navbar />
+  <Hero />
+  <HomeCards />
 </template>
